@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- Botão principal (ADD/OPÇÕES) - base inferior direita -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:tint="@color/white"
+        android:contentDescription="Botão de opções"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_options" />
+
+    <!-- Botão PACIENTE (acima do add_btn) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pacient_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:visibility="invisible"
+        android:contentDescription="Botão de paciente"
+        app:layout_constraintBottom_toTopOf="@id/add_btn"
+        app:layout_constraintEnd_toEndOf="@id/add_btn"
+        app:srcCompat="@drawable/ic_pacient" />
+
+    <!-- Botão EXAMES (acima do pacient_btn) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/exam_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        android:visibility="invisible"
+        android:contentDescription="Botão de exames"
+        app:layout_constraintBottom_toTopOf="@id/pacient_btn"
+        app:layout_constraintEnd_toEndOf="@id/pacient_btn"
+        app:srcCompat="@drawable/ic_exames" />
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="102dp"
+        android:layout_height="30dp"
+        android:text="DevHealthy"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
