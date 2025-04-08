@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.thiagojunhonma.devhealthy.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.thiagojunhonma.devhealthy.app-mergeDebugResources-3:/layout/activity_cadastro_paciente.xml",
+        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/activity_cadastro_paciente.xml"
+    },
+    {
+        "merged": "com.thiagojunhonma.devhealthy.app-mergeDebugResources-3:/layout/fragment_procurar.xml",
+        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/fragment_procurar.xml"
+    },
+    {
+        "merged": "com.thiagojunhonma.devhealthy.app-mergeDebugResources-3:/layout/fragment_home.xml",
+        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.thiagojunhonma.devhealthy.app-mergeDebugResources-3:/layout/fragment_perfil.xml",
+        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/fragment_perfil.xml"
+    }
+]

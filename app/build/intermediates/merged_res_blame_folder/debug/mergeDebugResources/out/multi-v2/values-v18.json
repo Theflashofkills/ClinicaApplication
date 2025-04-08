@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.thiagojunhonma.devhealthy.app-mergeDebugResources-2:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\thiag\\.gradle\\caches\\8.10.2\\transforms\\7362a61e2357be59cdf7c8376f9a44d9\\transformed\\appcompat-1.7.0\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

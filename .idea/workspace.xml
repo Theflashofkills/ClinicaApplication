@@ -1,10 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+=======
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cadastro_paciente.xml">
+        <config>
+          <theme>@style/Theme.DevHealthy</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.DevHealthy</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml">
+        <config>
+          <theme>@style/Theme.DevHealthy</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_perfil.xml">
+        <config>
+          <theme>@style/Theme.DevHealthy</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_procurar.xml">
+        <config>
+          <theme>@style/Theme.DevHealthy</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/bottom_nav_menu.xml">
+        <config>
+          <theme>@style/Theme.DevHealthy</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/navigation/mobile_navigation.xml">
+        <config>
+          <theme>@style/Theme.DevHealthy</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+>>>>>>> b6b3701 (tela inicial e cadastro de pacientes)
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="8c828897-a0cf-4bc7-b989-671a75d29245" name="Changes" comment="" />
+=======
+    <list default="true" id="313fd94a-2e42-4df1-b0a2-53a3009b60df" name="Changes" comment="tela inicial e cadastro de pacientes" />
+>>>>>>> b6b3701 (tela inicial e cadastro de pacientes)
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,14 +64,22 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\thiag\.android\avd\Pixel_7_API_35.avd)]" />
   <component name="ExternalProjectsData">
+<<<<<<< HEAD
     <projectState path="$PROJECT_DIR$/DevHealthy2">
+=======
+    <projectState path="$PROJECT_DIR$">
+>>>>>>> b6b3701 (tela inicial e cadastro de pacientes)
       <ProjectState />
     </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+<<<<<<< HEAD
         <task path="$PROJECT_DIR$/DevHealthy2/app">
+=======
+        <task path="$PROJECT_DIR$/app">
+>>>>>>> b6b3701 (tela inicial e cadastro de pacientes)
           <activation />
         </task>
         <projects_view>
@@ -57,9 +114,22 @@
       </state>
     </system>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DevHealthy2" />
     <option name="ROOT_SYNC" value="SYNC" />
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+>>>>>>> b6b3701 (tela inicial e cadastro de pacientes)
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -73,24 +143,42 @@
     &quot;accountId&quot;: &quot;43e13a72-2215-45d8-a19e-f4d7b274d288&quot;
   }
 }</component>
+<<<<<<< HEAD
+=======
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+>>>>>>> b6b3701 (tela inicial e cadastro de pacientes)
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
   <component name="ProjectColorInfo">{
+<<<<<<< HEAD
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2vQ3xeoX1dFma7SMYvtQ1QR3vIo" />
+=======
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2vKjuaStCE4he2Qjt07R9hFCHVd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> b6b3701 (tela inicial e cadastro de pacientes)
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+<<<<<<< HEAD
+=======
+    "Android App.app.executor": "Run",
+>>>>>>> b6b3701 (tela inicial e cadastro de pacientes)
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+<<<<<<< HEAD
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -103,6 +191,24 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="Unnamed" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+=======
+    "com.google.services.firebase.aqiPopupShown": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/thiag/Downloads/DevHealthy2",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\thiag\AndroidStudioProjects\DevHealthy2\app\src\main\res\drawable" />
+      <recent name="C:\Users\thiag\AndroidStudioProjects\DevHealthy2\app\src\main\res" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+>>>>>>> b6b3701 (tela inicial e cadastro de pacientes)
       <module name="DevHealthy.app" />
       <option name="ANDROID_RUN_CONFIGURATION_SCHEMA_VERSION" value="1" />
       <option name="DEPLOY" value="true" />
@@ -169,12 +275,32 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
       <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+<<<<<<< HEAD
       <method v="2" />
+=======
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="DevHealthy2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="DevHealthy2" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+>>>>>>> b6b3701 (tela inicial e cadastro de pacientes)
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="8c828897-a0cf-4bc7-b989-671a75d29245" name="Changes" comment="" />
       <created>1744063719054</created>
       <option name="number" value="Default" />
@@ -183,4 +309,45 @@
     </task>
     <servers />
   </component>
+=======
+      <changelist id="313fd94a-2e42-4df1-b0a2-53a3009b60df" name="Changes" comment="" />
+      <created>1743900882336</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743900882336</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tela inicial e cadastro de pacientes" />
+    <option name="LAST_COMMIT_MESSAGE" value="tela inicial e cadastro de pacientes" />
+  </component>
+  <component name="play_dynamic_filters_status">
+    <option name="appIdToCheckInfo">
+      <map>
+        <entry key="com.thiagojunhonma.devhealthy">
+          <value>
+            <CheckInfo lastCheckTimestamp="1744040715532" />
+          </value>
+        </entry>
+        <entry key="com.thiagojunhonma.devhealthy.test">
+          <value>
+            <CheckInfo lastCheckTimestamp="1744040715566" />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+>>>>>>> b6b3701 (tela inicial e cadastro de pacientes)
 </project>
