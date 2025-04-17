@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permissão para acessar fotos (caso precise para dispositivos abaixo do Android 13) -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,7 +17,7 @@
         android:theme="@style/Theme.DevHealthy"
         tools:targetApi="31">
 
-        <!-- MainActivity com splash automática -->
+        <!-- Tela principal -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
@@ -24,7 +28,11 @@
             </intent-filter>
         </activity>
 
+        <!-- Tela de Cadastro de Paciente -->
         <activity android:name=".CadastroPacienteActivity" />
+
+        <!-- Nova tela de Cadastro de Exame -->
+        <activity android:name=".CadastroExameActivity" />
 
     </application>
 

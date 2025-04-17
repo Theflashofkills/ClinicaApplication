@@ -1,330 +1,338 @@
 [
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-hdpi_app_icon2_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-hdpi/app_icon2_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\layout_activity_cadastro_paciente.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\layout\\activity_cadastro_paciente.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_ic_options.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/ic_options.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/xml_data_extraction_rules.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/layout_activity_cadastro_paciente.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/activity_cadastro_paciente.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xhdpi_app_icon2.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xhdpi\\app_icon2.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_consulta.png.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/consulta.png"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-mdpi_app_icon2.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-mdpi\\app_icon2.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_paciente.png.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/paciente.png"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_assistencia_medica.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\assistencia_medica.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxhdpi_dev_healthy.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxhdpi/dev_healthy.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_exame.png.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\exame.png"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-mdpi_app_icon2.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-mdpi/app_icon2.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxhdpi_app_icon.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxhdpi\\app_icon.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/anim_to_bottom_anim.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/anim/to_bottom_anim.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_dropdown_icon.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/dropdown_icon.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-mdpi_dev_healthy.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-mdpi\\dev_healthy.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxhdpi_app_icon_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxhdpi/app_icon_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-hdpi_app_icon_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-hdpi\\app_icon_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_iconesplash.png.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/iconesplash.png"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.thiagojunhonma.devhealthy.app-debug-53:/layout_activity_criar_exame.xml.flat",
+        "source": "com.thiagojunhonma.devhealthy.app-main-55:/layout/activity_criar_exame.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\layout_fragment_procurar.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\layout\\fragment_procurar.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_laudo.png.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/laudo.png"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_iconeapp.png.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\iconeapp.png"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xhdpi_dev_healthy.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xhdpi\\dev_healthy.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/layout_activity_main.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/activity_main.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxxhdpi_dev_healthy.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxxhdpi\\dev_healthy.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxhdpi_app_icon2_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxhdpi/app_icon2_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_seta_voltar.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\seta_voltar.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxxhdpi_app_icon2.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxxhdpi/app_icon2.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-hdpi_app_icon2.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-hdpi/app_icon2.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xhdpi_app_icon2_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xhdpi\\app_icon2_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/anim_rotate_close_anim.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/anim/rotate_close_anim.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\ic_home_black_24dp.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-anydpi-v26_app_icon2_round.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-anydpi-v26/app_icon2_round.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-anydpi-v26_app_icon2_round.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-anydpi-v26\\app_icon2_round.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/anim_from_bottom_anim.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/anim/from_bottom_anim.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_dropdown_icon.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\dropdown_icon.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-mdpi_app_icon_background.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-mdpi/app_icon_background.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\ic_dashboard_black_24dp.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_ic_dashboard_black_24dp.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/ic_dashboard_black_24dp.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxhdpi_dev_healthy.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxhdpi\\dev_healthy.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-mdpi_dev_healthy.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-mdpi/dev_healthy.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxhdpi_app_icon_background.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxhdpi\\app_icon_background.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xhdpi_dev_healthy.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xhdpi/dev_healthy.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxhdpi_app_icon2_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxhdpi\\app_icon2_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-hdpi_app_icon.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-hdpi/app_icon.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\anim_from_bottom_anim.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\anim\\from_bottom_anim.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_ic_options.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\ic_options.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_ic_pacient.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/ic_pacient.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-hdpi_app_icon_background.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-hdpi\\app_icon_background.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xhdpi_app_icon.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xhdpi/app_icon.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_laudo.png.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\laudo.png"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_exame.png.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/exame.png"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-hdpi_app_icon_foreground.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-hdpi/app_icon_foreground.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_iconesplash.png.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\iconesplash.png"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-mdpi_app_icon.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-mdpi/app_icon.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_seta_voltar.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/seta_voltar.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-mdpi_app_icon.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-mdpi\\app_icon.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-anydpi-v26_app_icon2.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-anydpi-v26\\app_icon2.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_ic_home_black_24dp.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/ic_home_black_24dp.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-mdpi_app_icon2_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-mdpi\\app_icon2_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-hdpi_app_icon_background.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-hdpi/app_icon_background.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\layout_activity_criar_exame.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\layout\\activity_criar_exame.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxxhdpi_dev_healthy.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxxhdpi/dev_healthy.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-anydpi-v26\\app_icon.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xhdpi_app_icon_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xhdpi/app_icon_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/layout_fragment_perfil.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/fragment_perfil.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-mdpi_app_icon_background.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-mdpi\\app_icon_background.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/layout_fragment_procurar.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/fragment_procurar.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\navigation\\mobile_navigation.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxxhdpi_app_icon_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxxhdpi/app_icon_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxxhdpi_app_icon.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxxhdpi\\app_icon.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_iconeapp.png.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/iconeapp.png"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_ic_pacient.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\ic_pacient.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xhdpi_app_icon_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xhdpi\\app_icon_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/xml_backup_rules.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-mdpi_app_icon_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-mdpi\\app_icon_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-mdpi_app_icon_foreground.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-mdpi/app_icon_foreground.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxhdpi_app_icon_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxhdpi\\app_icon_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-mdpi_app_icon_foreground.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-mdpi\\app_icon_foreground.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_receita.png.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/receita.png"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-hdpi_app_icon_foreground.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-hdpi\\app_icon_foreground.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_paciente.png.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\paciente.png"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_ic_notifications_black_24dp.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/ic_notifications_black_24dp.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-hdpi_app_icon.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-hdpi\\app_icon.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxhdpi_app_icon2.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxhdpi/app_icon2.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xhdpi_app_icon_foreground.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xhdpi/app_icon_foreground.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxxhdpi_app_icon_background.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxxhdpi\\app_icon_background.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_assistencia_medica.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/assistencia_medica.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxxhdpi_app_icon_foreground.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxxhdpi/app_icon_foreground.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\layout\\fragment_home.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_consulta.png.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\consulta.png"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_receita.png.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\receita.png"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-hdpi_dev_healthy.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-hdpi/dev_healthy.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxxhdpi_app_icon2.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxxhdpi\\app_icon2.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xhdpi_app_icon2.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xhdpi/app_icon2.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-hdpi_app_icon_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-hdpi/app_icon_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxhdpi_app_icon_background.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxhdpi/app_icon_background.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxhdpi_app_icon_foreground.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxhdpi/app_icon_foreground.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-hdpi_dev_healthy.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-hdpi\\dev_healthy.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/anim_rotate_open_anim.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/anim/rotate_open_anim.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xhdpi_app_icon_background.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xhdpi\\app_icon_background.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/drawable_ic_exames.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/drawable/ic_exames.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxhdpi_app_icon_foreground.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxhdpi\\app_icon_foreground.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxhdpi_app_icon.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxhdpi/app_icon.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\ic_notifications_black_24dp.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxxhdpi_app_icon_foreground.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxxhdpi\\app_icon_foreground.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-mdpi_app_icon_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-mdpi/app_icon_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\anim_rotate_open_anim.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\anim\\rotate_open_anim.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxxhdpi_app_icon2_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxxhdpi/app_icon2_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xhdpi_app_icon.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xhdpi\\app_icon.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/layout_fragment_home.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxhdpi_app_icon2.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxhdpi\\app_icon2.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-mdpi_app_icon2_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-mdpi/app_icon2_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-anydpi-v26\\app_icon_round.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-anydpi-v26_app_icon.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-anydpi-v26/app_icon.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxxhdpi_app_icon_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxxhdpi\\app_icon_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xhdpi_app_icon2_round.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xhdpi/app_icon2_round.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-hdpi_app_icon2.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-hdpi\\app_icon2.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxxhdpi_app_icon_background.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxxhdpi/app_icon_background.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\anim_rotate_close_anim.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\anim\\rotate_close_anim.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xhdpi_app_icon_background.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xhdpi/app_icon_background.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xxxhdpi_app_icon2_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xxxhdpi\\app_icon2_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-anydpi-v26_app_icon_round.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-anydpi-v26/app_icon_round.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\layout_fragment_perfil.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\layout\\fragment_perfil.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-xxxhdpi_app_icon.webp.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-xxxhdpi/app_icon.webp"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-xhdpi_app_icon_foreground.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-xhdpi\\app_icon_foreground.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/mipmap-anydpi-v26_app_icon2.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/mipmap-anydpi-v26/app_icon2.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-debug-4:/navigation_mobile_navigation.xml.flat",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/navigation/mobile_navigation.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\mipmap-hdpi_app_icon2_round.webp.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\mipmap-hdpi\\app_icon2_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\drawable_ic_exames.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\drawable\\ic_exames.xml"
+    },
+    {
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-debug-53:\\anim_to_bottom_anim.xml.flat",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\anim\\to_bottom_anim.xml"
     }
 ]

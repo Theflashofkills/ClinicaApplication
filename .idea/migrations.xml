@@ -3,11 +3,7 @@
   <component name="ProjectMigrations">
     <option name="MigrateToGradleLocalJavaHome">
       <set>
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/DevHealthy2" />
-=======
         <option value="$PROJECT_DIR$" />
->>>>>>> b6b3701 (tela inicial e cadastro de pacientes)
       </set>
     </option>
   </component>

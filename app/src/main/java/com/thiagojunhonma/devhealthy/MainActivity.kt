@@ -56,7 +56,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.examBtn.setOnClickListener {
             Toast.makeText(this, "Botão Criar EXAME clicado!", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this, CadastroExameActivity::class.java)
+            startActivity(intent)
         }
+
     }
 
     private fun onAddButtonClicked() {

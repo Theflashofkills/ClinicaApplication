@@ -1,22 +1,30 @@
 [
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-mergeDebugResources-3:/layout/activity_main.xml",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/activity_main.xml"
+        "merged": "com.thiagojunhonma.devhealthy.app-mergeDebugResources-52:/layout/activity_criar_exame.xml",
+        "source": "com.thiagojunhonma.devhealthy.app-main-55:/layout/activity_criar_exame.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-mergeDebugResources-3:/layout/activity_cadastro_paciente.xml",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/activity_cadastro_paciente.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-mergeDebugResources-52:\\layout\\fragment_procurar.xml",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\layout\\fragment_procurar.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-mergeDebugResources-3:/layout/fragment_procurar.xml",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/fragment_procurar.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-mergeDebugResources-52:\\layout\\fragment_perfil.xml",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\layout\\fragment_perfil.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-mergeDebugResources-3:/layout/fragment_home.xml",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/fragment_home.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-mergeDebugResources-52:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.thiagojunhonma.devhealthy.app-mergeDebugResources-3:/layout/fragment_perfil.xml",
-        "source": "com.thiagojunhonma.devhealthy.app-main-6:/layout/fragment_perfil.xml"
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-mergeDebugResources-52:\\layout\\activity_cadastro_paciente.xml",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\layout\\activity_cadastro_paciente.xml"
+    },
+    {
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-mergeDebugResources-52:\\layout\\activity_criar_exame.xml",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\layout\\activity_criar_exame.xml"
+    },
+    {
+        "merged": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-mergeDebugResources-52:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\thiag\\.gradle\\daemon\\8.10.2\\com.thiagojunhonma.devhealthy.app-main-55:\\layout\\fragment_home.xml"
     }
 ]
