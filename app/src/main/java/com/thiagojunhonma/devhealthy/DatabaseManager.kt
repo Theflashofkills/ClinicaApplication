@@ -9,7 +9,7 @@ class DatabaseManager(context: Context) {
 
     init {
         // Inicializa o banco de dados
-        val config = DatabaseConfiguration(context)
+        val config = DatabaseConfiguration()
         database = Database("pacientes", config)
     }
 
@@ -29,5 +29,29 @@ class DatabaseManager(context: Context) {
         } catch (e: Exception) {
             e.printStackTrace()
         }
+    }
+
+    // Função para buscar todos os pacientes
+    fun buscarTodosPacientes(): List<Map<String, String>> {
+        val query = QueryBuilder.select(SelectResult.all())
+            .from(DataSource.database(database))
+
+        val pacientes = mutableListOf<Map<String, String>>()
+
+        try {
+            // Executa a consulta e percorre os resultados
+            val result = query.execute()
+            for (row in result) {
+                val paciente = mutableMapOf<String, String>()
+                paciente["nome"] = row.getString("nome") ?: "Desconhecido"
+                paciente["cpf"] = row.getString("cpf") ?: "Desconhecido"
+                paciente["endereco"] = row.getDictionary("endereco")?.getString("rua") ?: "Desconhecido"
+                pacientes.add(paciente)
+            }
+        } catch (e: CouchbaseLiteException) {
+            e.printStackTrace()
+        }
+
+        return pacientes
     }
 }
