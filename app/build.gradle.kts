@@ -54,4 +54,5 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:33.12.0"))
     implementation("com.google.firebase:firebase-storage-ktx")
     implementation("com.google.firebase:firebase-firestore-ktx")
+    implementation("com.couchbase.lite:couchbase-lite-android-ee-ktx:3.2.2")
 }

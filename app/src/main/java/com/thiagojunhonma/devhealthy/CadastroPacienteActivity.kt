@@ -7,16 +7,20 @@ import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.thiagojunhonma.devhealthy.databinding.ActivityCadastroPacienteBinding
+import com.thiagojunhonma.devhealthy.db.DatabaseManager
 import java.util.*
 
 class CadastroPacienteActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityCadastroPacienteBinding
+    private lateinit var db: DatabaseManager
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityCadastroPacienteBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        db = DatabaseManager(this)
 
         val toolbar = binding.toolbarCadastro
         setSupportActionBar(toolbar)
@@ -34,12 +38,11 @@ class CadastroPacienteActivity : AppCompatActivity() {
         val adapterSexo = ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, sexoOptions)
         binding.etSexo.setAdapter(adapterSexo)
 
-        // Mostra o menu ao clicar no campo
         binding.etSexo.setOnClickListener {
             binding.etSexo.showDropDown()
         }
 
-        // Data de nascimento: permite digitar e também escolher no calendário
+        // Date picker para data de nascimento
         binding.etDataNascimento.setOnFocusChangeListener { _, hasFocus ->
             if (hasFocus && binding.etDataNascimento.text.isNullOrEmpty()) {
                 mostrarDatePicker()
@@ -50,7 +53,7 @@ class CadastroPacienteActivity : AppCompatActivity() {
             mostrarDatePicker()
         }
 
-        // Ação do botão cadastrar
+        // Botão de cadastrar paciente
         binding.btnCadastrar.setOnClickListener {
             val nome = binding.etNome.text.toString()
             val cpf = binding.etCpf.text.toString()
@@ -59,8 +62,32 @@ class CadastroPacienteActivity : AppCompatActivity() {
             val telefone = binding.etTelefone.text.toString()
             val endereco = binding.etEndereco.text.toString()
 
-            Toast.makeText(this, "Paciente cadastrado: $nome", Toast.LENGTH_SHORT).show()
-            // Aqui você pode salvar os dados no banco
+            if (nome.isBlank() || cpf.isBlank()) {
+                Toast.makeText(this, "Preencha os campos obrigatórios!", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            }
+
+            // Mapeia os dados do paciente para um formato que o Couchbase Lite compreenda
+            val paciente = mapOf(
+                "nome" to nome,
+                "cpf" to cpf,
+                "dataNascimento" to dataNascimento,
+                "sexo" to sexo,
+                "telefone" to telefone,
+                "endereco" to endereco,
+                "type" to "paciente"
+            )
+
+            // Salva o paciente no Couchbase Lite
+            db.salvarPaciente(paciente)
+
+            Toast.makeText(this, "Paciente cadastrado com sucesso!", Toast.LENGTH_SHORT).show()
+
+            // Retorna para tela inicial
+            val intent = Intent(this, MainActivity::class.java)
+            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
+            startActivity(intent)
+            finish()
         }
     }
 

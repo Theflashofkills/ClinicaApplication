@@ -7,13 +7,13 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.widget.Toast
-import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
+import com.google.firebase.storage.StorageMetadata
 import com.thiagojunhonma.devhealthy.databinding.ActivityCriarExameBinding
 
 class CadastroExameActivity : AppCompatActivity() {
@@ -52,7 +52,11 @@ class CadastroExameActivity : AppCompatActivity() {
             }
 
             val imageRef = storage.reference.child("exames/${System.currentTimeMillis()}.jpg")
-            imageRef.putFile(imageUri!!)
+            val metadata = StorageMetadata.Builder()
+                .setContentType("image/jpeg")
+                .build()
+
+            imageRef.putFile(imageUri!!, metadata)
                 .addOnSuccessListener {
                     imageRef.downloadUrl.addOnSuccessListener { uri ->
                         val exame = hashMapOf(
@@ -95,6 +99,7 @@ class CadastroExameActivity : AppCompatActivity() {
     }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
         if (requestCode == 200 && grantResults.isNotEmpty() && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             abrirGaleria()
         } else {
@@ -103,8 +108,9 @@ class CadastroExameActivity : AppCompatActivity() {
     }
 
     private fun abrirGaleria() {
-        val intent = Intent(Intent.ACTION_GET_CONTENT)
+        val intent = Intent(Intent.ACTION_OPEN_DOCUMENT)
         intent.type = "image/*"
+        intent.addCategory(Intent.CATEGORY_OPENABLE)
         startActivityForResult(intent, 100)
     }
 
@@ -112,7 +118,14 @@ class CadastroExameActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == 100 && resultCode == Activity.RESULT_OK) {
             imageUri = data?.data
-            binding.imagePreview.setImageURI(imageUri)
+            if (imageUri != null) {
+                // Adiciona permissão persistente à URI (obrigatório para Android 10+)
+                contentResolver.takePersistableUriPermission(
+                    imageUri!!,
+                    Intent.FLAG_GRANT_READ_URI_PERMISSION
+                )
+                binding.imagePreview.setImageURI(imageUri)
+            }
         }
     }
 }
