@@ -43,5 +43,11 @@ class LoginActivity : AppCompatActivity() {
                     }
             }
         }
+        // Direciona para a tela de redefinição de senha
+        binding.esqueceuSenha.setOnClickListener {
+            val intent = Intent(this, EsqueceuSenhaActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
