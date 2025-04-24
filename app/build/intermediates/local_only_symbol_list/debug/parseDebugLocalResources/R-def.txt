@@ -41,6 +41,7 @@ drawable simbolo_medicina
 id addBtn
 id bemVindo
 id btnCadastrar
+id btnRedefinirSenha
 id btnSalvarExame
 id btnSelecionarImagem
 id cadastrarBotao
@@ -51,6 +52,7 @@ id devHealthy
 id editCpfPaciente
 id editDetalhesExame
 id editNomePaciente
+id editTextEmail
 id emailEditText
 id emailInputLayout
 id esqueceuSenha
@@ -85,6 +87,7 @@ id nomeInputLayout
 id novoUsuario
 id pacientBtn
 id recyclerView
+id sair_conta
 id searchView
 id senhaEditText
 id senhaInputLayout
@@ -92,16 +95,19 @@ id textExame
 id textLaudo
 id textPaciente
 id textReceita
+id textViewTitle
 id text_notifications
 id textpaciente
 id toolbar
 id toolbarCadastro
 id toolbarCadastroExame
+id voltarLogin
 layout activity_cadastro_paciente
 layout activity_cadastro_usuario
 layout activity_criar_exame
 layout activity_login
 layout activity_main
+layout esqueci_senha
 layout fragment_home
 layout fragment_perfil
 layout fragment_procurar

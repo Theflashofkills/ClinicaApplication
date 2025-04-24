@@ -14,10 +14,20 @@ class LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityLoginBinding.inflate(layoutInflater)
-        setContentView(binding.root)
 
         auth = FirebaseAuth.getInstance()
+
+        // Verifica se o usuário já está logado
+        val usuarioAtual = auth.currentUser
+        if (usuarioAtual != null) {
+            // Vai direto para a tela principal
+            startActivity(Intent(this, MainActivity::class.java))
+            finish() // Fecha LoginActivity
+            return
+        }
+
+        binding = ActivityLoginBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         // Ir para a tela de cadastro
         binding.cadastroText.setOnClickListener {
@@ -35,6 +45,7 @@ class LoginActivity : AppCompatActivity() {
                 auth.signInWithEmailAndPassword(email, senha)
                     .addOnCompleteListener { task ->
                         if (task.isSuccessful) {
+                            // Login bem-sucedido, vai para a MainActivity
                             startActivity(Intent(this, MainActivity::class.java))
                             finish()
                         } else {
@@ -43,11 +54,11 @@ class LoginActivity : AppCompatActivity() {
                     }
             }
         }
-        // Direciona para a tela de redefinição de senha
+
+        // Redefinição de senha
         binding.esqueceuSenha.setOnClickListener {
             val intent = Intent(this, EsqueceuSenhaActivity::class.java)
             startActivity(intent)
         }
-
     }
 }
