@@ -34,7 +34,7 @@
     <activity android:name=".EsqueceuSenhaActivity" />
     <activity android:name=".CadastroExameActivity" />
     <activity android:name=".CadastroPacienteActivity" />
-
+    <activity android:name=".ListaPacientesActivity" />
 </application>
 
     </manifest>

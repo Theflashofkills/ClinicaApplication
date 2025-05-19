@@ -2,51 +2,50 @@ package com.thiagojunhonma.devhealthy.db
 
 import android.content.Context
 import com.couchbase.lite.*
+import java.util.UUID
 
 class DatabaseManager(context: Context) {
 
     private val database: Database
 
     init {
-        // Inicializa o banco de dados
+        CouchbaseLite.init(context) // Adicionado para garantir inicialização
         val config = DatabaseConfiguration()
-        database = Database("pacientes", config)
+        database = Database("devhealthy", config) // Nome padronizado
     }
 
     // Função para salvar um paciente
     fun salvarPaciente(paciente: Map<String, String>) {
         try {
-            // Cria um documento mutável
-            val doc = MutableDocument()
-
-            // Preenche os campos do paciente no documento
+            val cpfSemMascara = paciente["cpf"]?.replace(Regex("[^\\d]"), "") ?: UUID.randomUUID().toString()
+            val doc = MutableDocument("paciente::$cpfSemMascara")
             paciente.forEach { (key, value) ->
                 doc.setString(key, value)
             }
-
-            // Salva o documento no banco de dados
             database.save(doc)
         } catch (e: Exception) {
             e.printStackTrace()
         }
     }
 
-    // Função para buscar todos os pacientes
+    // Função opcional para buscar pacientes
     fun buscarTodosPacientes(): List<Map<String, String>> {
+        val pacientes = mutableListOf<Map<String, String>>()
         val query = QueryBuilder.select(SelectResult.all())
             .from(DataSource.database(database))
-
-        val pacientes = mutableListOf<Map<String, String>>()
+            .where(Expression.property("type").equalTo(Expression.string("paciente")))
 
         try {
-            // Executa a consulta e percorre os resultados
             val result = query.execute()
             for (row in result) {
-                val paciente = mutableMapOf<String, String>()
-                paciente["nome"] = row.getString("nome") ?: "Desconhecido"
-                paciente["cpf"] = row.getString("cpf") ?: "Desconhecido"
-                paciente["endereco"] = row.getDictionary("endereco")?.getString("rua") ?: "Desconhecido"
-                pacientes.add(paciente)
+                val dict = row.getDictionary("devhealthy")
+                if (dict != null) {
+                    val paciente = mutableMapOf<String, String>()
+                    paciente["nome"] = dict.getString("nome") ?: "Desconhecido"
+                    paciente["cpf"] = dict.getString("cpf") ?: "Desconhecido"
+                    paciente["endereco"] = dict.getString("endereco") ?: "Desconhecido"
+                    pacientes.add(paciente)
+                }
             }
         } catch (e: CouchbaseLiteException) {
             e.printStackTrace()
