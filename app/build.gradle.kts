@@ -62,4 +62,9 @@ dependencies {
     // Couchbase
     implementation("com.couchbase.lite:couchbase-lite-android-ee-ktx:3.2.2")
 
+
+    // Glide
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
+
+
 }

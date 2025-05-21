@@ -1,35 +1,81 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.perfil.PerfilFragment">
+    android:padding="24dp"
+    android:background="@android:color/white">
 
-    <TextView
-        android:id="@+id/text_notifications"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.494" />
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
 
-    <Button
-        android:id="@+id/sair_conta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:text="Sair da Conta"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/text_notifications" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <!-- Container da foto com ícone de câmera -->
+        <FrameLayout
+            android:id="@+id/containerFotoPerfil"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <ImageView
+                android:id="@+id/imagePerfil"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:contentDescription="Foto de perfil"
+                android:src="@drawable/assistencia_medica"
+                android:background="@drawable/circle_background" />
+
+            <ImageView
+                android:id="@+id/iconCamera"
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_camera"
+                android:background="@drawable/circle_white_background"
+                android:padding="4dp"
+                app:tint="@color/main_color" />
+        </FrameLayout>
+
+        <!-- Nome do médico -->
+        <TextView
+            android:id="@+id/txtNomeMedico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do Médico"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <!-- CRM do médico -->
+        <TextView
+            android:id="@+id/txtCrmMedico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CRM: 123456-SP"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Botão Sair da Conta -->
+        <Button
+            android:id="@+id/sair_conta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sair da Conta" />
+
+        <!-- Botão Excluir Conta -->
+        <Button
+            android:id="@+id/excluir_conta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Excluir Conta"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@android:color/holo_red_light" />
+    </LinearLayout>
+</ScrollView>
