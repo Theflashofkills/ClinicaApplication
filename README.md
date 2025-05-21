@@ -10,7 +10,7 @@
 
 ### Strategy
 
-- Aplicado no módulo de ChatBot para permitir múltiplas estratégias de envio e processamento de mensagens, facilitando futuras integrações com outras APIs.
+- O padrão Strategy foi aplicado para permitir múltiplas formas de processar mensagens ou interações, especialmente no módulo do ChatBot. Isso permite trocar ou adicionar diferentes motores de processamento (ex.: OpenAI, outro serviço) sem modificar a lógica principal.
 
 ## Implementações Realizadas Conforme Planejamento do Jira
 
