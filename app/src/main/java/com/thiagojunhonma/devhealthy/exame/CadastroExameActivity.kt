@@ -1,4 +1,4 @@
-package com.thiagojunhonma.devhealthy
+package com.thiagojunhonma.devhealthy.exame
 
 import android.app.Activity
 import android.content.Intent
@@ -15,7 +15,7 @@ import com.couchbase.lite.*
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.StorageMetadata
-import java.util.*
+import com.thiagojunhonma.devhealthy.R
 
 class CadastroExameActivity : AppCompatActivity() {
 

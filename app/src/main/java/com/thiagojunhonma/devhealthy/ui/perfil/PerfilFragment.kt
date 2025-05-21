@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.storage.FirebaseStorage
-import com.thiagojunhonma.devhealthy.LoginActivity
+import com.thiagojunhonma.devhealthy.AutenticacaoUsuario.LoginActivity
 import com.thiagojunhonma.devhealthy.databinding.FragmentPerfilBinding
 
 class PerfilFragment : Fragment() {

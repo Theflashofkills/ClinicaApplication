@@ -8,8 +8,8 @@
 
     <item
         android:id="@+id/navigation_procurar"
-        android:icon="?android:attr/actionModeWebSearchDrawable"
-        android:title="Procurar" />
+        android:icon="@drawable/icons8_bot_50"
+        android:title="DHealth Bot" />
 
     <item
         android:id="@+id/navigation_perfil"

@@ -5,9 +5,10 @@
     <!-- Permissões -->
     <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
 
     <application
-        android:name=".DevHealthyApp"
+        android:name=".Database.DevHealthyApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -20,7 +21,7 @@
 
     <!-- Tela inicial será o Login -->
     <activity
-        android:name=".LoginActivity"
+        android:name=".AutenticacaoUsuario.LoginActivity"
         android:exported="true">
         <intent-filter>
             <action android:name="android.intent.action.MAIN" />
@@ -30,11 +31,12 @@
 
     <!-- Telas do app -->
     <activity android:name=".MainActivity" />
-    <activity android:name=".CadastroUsuarioActivity" />
-    <activity android:name=".EsqueceuSenhaActivity" />
-    <activity android:name=".CadastroExameActivity" />
-    <activity android:name=".CadastroPacienteActivity" />
-    <activity android:name=".ListaPacientesActivity" />
-</application>
+    <activity android:name=".AutenticacaoUsuario.CadastroUsuarioActivity" />
+    <activity android:name=".AutenticacaoUsuario.EsqueceuSenhaActivity" />
+    <activity android:name=".exame.CadastroExameActivity" />
+    <activity android:name=".Paciente.CadastroPacienteActivity" />
+    <activity android:name=".Paciente.ListaPacientesActivity" />
+    <activity android:name=".exame.ListarExamesActivity" />
+    </application>
 
     </manifest>

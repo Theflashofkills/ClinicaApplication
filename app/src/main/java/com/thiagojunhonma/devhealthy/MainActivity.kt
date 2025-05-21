@@ -2,6 +2,7 @@ package com.thiagojunhonma.devhealthy
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
 import android.widget.Toast
@@ -9,7 +10,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
-import com.thiagojunhonma.devhealthy.CadastroExameActivity
+import com.thiagojunhonma.devhealthy.Paciente.CadastroPacienteActivity
+import com.thiagojunhonma.devhealthy.exame.CadastroExameActivity
 import com.thiagojunhonma.devhealthy.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -41,8 +43,27 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.title = "DEVHEALTHY"
         binding.toolbar.setTitleTextColor(resources.getColor(android.R.color.white))
 
-        // setupActionBarWithNavController(navController, appBarConfiguration)
         binding.navView.setupWithNavController(navController)
+
+        // Escuta mudanças de fragmento para controlar visibilidade dos botões flutuantes
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            when (destination.id) {
+                R.id.navigation_procurar -> {
+                    // Oculta botão flutuante e os botões secundários na tela do chatbot
+                    binding.addBtn.visibility = View.GONE
+                    binding.examBtn.visibility = View.GONE
+                    binding.pacientBtn.visibility = View.GONE
+                }
+                else -> {
+                    // Mostra o botão flutuante nas outras telas
+                    binding.addBtn.visibility = View.VISIBLE
+                    // Oculta os botões secundários até clicar no botão flutuante
+                    binding.examBtn.visibility = View.INVISIBLE
+                    binding.pacientBtn.visibility = View.INVISIBLE
+                    clicked = false // Reseta o estado para garantir animação correta
+                }
+            }
+        }
 
         binding.addBtn.setOnClickListener {
             onAddButtonClicked()
@@ -59,7 +80,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, CadastroExameActivity::class.java)
             startActivity(intent)
         }
-
     }
 
     private fun onAddButtonClicked() {
@@ -69,8 +89,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setVisibility(clicked: Boolean) {
-        binding.examBtn.visibility = if (!clicked) android.view.View.VISIBLE else android.view.View.INVISIBLE
-        binding.pacientBtn.visibility = if (!clicked) android.view.View.VISIBLE else android.view.View.INVISIBLE
+        binding.examBtn.visibility = if (!clicked) View.VISIBLE else View.INVISIBLE
+        binding.pacientBtn.visibility = if (!clicked) View.VISIBLE else View.INVISIBLE
     }
 
     private fun setAnimation(clicked: Boolean) {

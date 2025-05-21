@@ -1,4 +1,4 @@
-package com.thiagojunhonma.devhealthy.db
+package com.thiagojunhonma.devhealthy.Database
 
 import android.content.Context
 import com.couchbase.lite.*

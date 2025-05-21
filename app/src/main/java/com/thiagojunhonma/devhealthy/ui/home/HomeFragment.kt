@@ -6,8 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.thiagojunhonma.devhealthy.ListaPacientesActivity
+import com.thiagojunhonma.devhealthy.Paciente.ListaPacientesActivity
 import com.thiagojunhonma.devhealthy.databinding.FragmentHomeBinding
+import com.thiagojunhonma.devhealthy.exame.ListarExamesActivity  // IMPORTAR AQUI
 
 class HomeFragment : Fragment() {
 
@@ -24,6 +25,11 @@ class HomeFragment : Fragment() {
 
         binding.btnPacientes.setOnClickListener {
             val intent = Intent(requireContext(), ListaPacientesActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.imageButton4.setOnClickListener {
+            val intent = Intent(requireContext(), ListarExamesActivity::class.java)
             startActivity(intent)
         }
 

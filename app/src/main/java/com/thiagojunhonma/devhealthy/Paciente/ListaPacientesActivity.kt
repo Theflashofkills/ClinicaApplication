@@ -1,4 +1,4 @@
-package com.thiagojunhonma.devhealthy
+package com.thiagojunhonma.devhealthy.Paciente
 
 import android.os.Bundle
 import android.widget.ArrayAdapter
@@ -7,7 +7,6 @@ import com.couchbase.lite.*
 import com.thiagojunhonma.devhealthy.databinding.ActivityListaPacientesBinding
 import android.util.Log
 import androidx.core.view.WindowCompat
-import com.google.android.material.appbar.MaterialToolbar
 
 class ListaPacientesActivity : AppCompatActivity() {
 

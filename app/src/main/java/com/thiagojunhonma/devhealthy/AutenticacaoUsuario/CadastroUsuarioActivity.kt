@@ -1,10 +1,11 @@
-package com.thiagojunhonma.devhealthy
+package com.thiagojunhonma.devhealthy.AutenticacaoUsuario
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.auth.FirebaseAuth
+import com.thiagojunhonma.devhealthy.MainActivity
 import com.thiagojunhonma.devhealthy.databinding.ActivityCadastroUsuarioBinding
 
 class CadastroUsuarioActivity : AppCompatActivity() {

@@ -1,4 +1,4 @@
-package com.thiagojunhonma.devhealthy
+package com.thiagojunhonma.devhealthy.Database
 
 import android.app.Application
 import com.couchbase.lite.CouchbaseLite

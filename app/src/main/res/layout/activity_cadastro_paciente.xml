@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:padding="16dp"
-            tools:context=".CadastroPacienteActivity">
+            tools:context=".Paciente.CadastroPacienteActivity">
 
             <!-- Nome -->
             <com.google.android.material.textfield.TextInputLayout

@@ -13,7 +13,7 @@
 
     <fragment
         android:id="@+id/navigation_procurar"
-        android:name="com.thiagojunhonma.devhealthy.ui.procurar.ProcurarFragment"
+        android:name="com.thiagojunhonma.devhealthy.ui.ChatBot.ChatBotFragment"
         android:label="@string/title_procurar"
         tools:layout="@layout/fragment_procurar" />
 

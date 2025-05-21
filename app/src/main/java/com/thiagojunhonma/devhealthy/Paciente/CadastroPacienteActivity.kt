@@ -1,4 +1,4 @@
-package com.thiagojunhonma.devhealthy
+package com.thiagojunhonma.devhealthy.Paciente
 
 import android.app.DatePickerDialog
 import android.content.Intent
@@ -8,8 +8,9 @@ import android.text.TextWatcher
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.thiagojunhonma.devhealthy.MainActivity
 import com.thiagojunhonma.devhealthy.databinding.ActivityCadastroPacienteBinding
-import com.thiagojunhonma.devhealthy.db.DatabaseManager
+import com.thiagojunhonma.devhealthy.Database.DatabaseManager
 import java.text.SimpleDateFormat
 import java.util.*
 
