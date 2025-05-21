@@ -1,4 +1,3 @@
-// ListarExamesActivity.kt
 package com.thiagojunhonma.devhealthy.exame
 
 import android.os.Bundle
@@ -80,5 +79,4 @@ class ListarExamesActivity : AppCompatActivity() {
                 Log.e("ListarExames", "Erro ao carregar exames: ", e)
             }
     }
-
 }

@@ -27,7 +27,7 @@ class ExamesAdapter(private val lista: List<Exame>) :
                 .load(exame.fotoUrl)
                 .into(holder.binding.imageExame)
         } else {
-            holder.binding.imageExame.setImageResource(R.drawable.exame) // um placeholder no drawable
+            holder.binding.imageExame.setImageResource(R.drawable.exame)
         }
     }
 
