@@ -39,8 +39,10 @@ drawable receita
 drawable seta_voltar
 drawable simbolo_medicina
 id addBtn
+id autoCompletePaciente
 id bemVindo
 id btnCadastrar
+id btnPacientes
 id btnRedefinirSenha
 id btnSalvarExame
 id btnSelecionarImagem
@@ -65,12 +67,12 @@ id etTelefone
 id examBtn
 id formScroll
 id formScrollExame
-id imageButton1
 id imageButton2
 id imageButton3
 id imageButton4
 id imageButton5
 id imagePreview
+id listViewPacientes
 id loginButton
 id loginRedirectText
 id loginTitle
@@ -105,6 +107,7 @@ id voltarLogin
 layout activity_cadastro_paciente
 layout activity_cadastro_usuario
 layout activity_criar_exame
+layout activity_lista_pacientes
 layout activity_login
 layout activity_main
 layout esqueci_senha

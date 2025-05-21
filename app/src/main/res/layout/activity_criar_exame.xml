@@ -16,7 +16,7 @@
         android:paddingTop="18dp"
         app:contentInsetStart="0dp"
         app:navigationIcon="@drawable/seta_voltar"
-        app:title="Cadastro de Exame"
+        app:title="Cadastro Pedido de Exame"
         app:titleTextColor="@color/white"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
         app:layout_constraintTop_toTopOf="parent"
@@ -41,6 +41,19 @@
             android:padding="16dp"
             tools:context=".CadastroExameActivity">
 
+            <!-- Dropdown de Pacientes -->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Selecione o paciente"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+                <com.google.android.material.textfield.MaterialAutoCompleteTextView
+                    android:id="@+id/autoCompletePaciente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
             <!-- Nome do Paciente -->
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -51,7 +64,8 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/editNomePaciente"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:enabled="false"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- CPF do Paciente -->
@@ -65,7 +79,8 @@
                     android:id="@+id/editCpfPaciente"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:enabled="false"/>
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Imagem do Exame -->

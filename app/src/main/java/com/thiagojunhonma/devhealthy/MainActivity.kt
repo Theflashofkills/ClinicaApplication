@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupWithNavController
+import com.thiagojunhonma.devhealthy.CadastroExameActivity
 import com.thiagojunhonma.devhealthy.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
