@@ -17,7 +17,6 @@
 - Login e cadastro via FirebaseAuth  
 - Cadastro e listagem de exames integrados com Firebase Firestore e Couchbase Lite  
 - Upload de imagens de perfil com Firebase Storage  
-- ChatBot integrado com API OpenAI utilizando estratégia para envio de mensagens  
 - Fluxo completo de navegação e logout  
 - Exclusão de conta com remoção de dados nos serviços Firebase
-
+- ChatBot integrado com API OpenAI utilizando estratégia para envio de mensagens (Bônus)
