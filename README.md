@@ -19,4 +19,4 @@
 - Upload de imagens de perfil com Firebase Storage  
 - Fluxo completo de navegação e logout  
 - Exclusão de conta com remoção de dados nos serviços Firebase
-- ChatBot integrado com API OpenAI utilizando estratégia para envio de mensagens (Bônus)
+- ChatBot integrado com API OpenAI utilizando estratégia para envio de mensagens
